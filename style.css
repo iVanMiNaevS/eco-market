@@ -455,6 +455,121 @@ footer .container {
 	gap: 3rem;
 }
 
+.login-form {
+	min-width: 400px;
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+	box-shadow: var(--shadow);
+	border-radius: 20px 0px 20px 0px;
+	padding: 3rem;
+	max-width: 600px;
+}
+.login-form .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1rem;
+}
+.login-form input {
+	border: none;
+	border-radius: 20px 0px 20px 0px;
+	font-size: calc(var(--deftext) + 0.1vw);
+	padding: calc(0.5rem + 0.5vw) calc(1rem + 0.5vw);
+	outline: none;
+	transition: 0.3s;
+}
+.login-form input:focus {
+	background: var(--main);
+	color: white;
+}
+.login-form input:focus::placeholder {
+	color: white;
+}
+.login__email {
+	width: 100%;
+}
+.login__password {
+	width: 100%;
+}
+.login__bt {
+	width: 70%;
+}
+.login__not-acc {
+	margin-top: 1rem;
+	text-align: left;
+	width: 100%;
+	padding-left: calc(1rem + 0.5vw);
+}
+.login__not-acc a {
+	color: var(--main);
+	border-bottom: 1px solid var(--main);
+}
+.reg-form {
+	width: 50%;
+	min-width: 400px;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+	box-shadow: var(--shadow);
+	border-radius: 20px 0px 20px 0px;
+	padding: 3rem;
+	max-width: 600px;
+}
+.reg-form .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1rem;
+}
+.reg-form input {
+	width: 100%;
+	border: none;
+	border-radius: 20px 0px 20px 0px;
+	font-size: calc(var(--deftext) + 0.1vw);
+	padding: calc(0.5rem + 0.5vw) calc(1rem + 0.5vw);
+	outline: none;
+	transition: 0.3s;
+}
+.reg-form input:focus {
+	background: var(--main);
+	color: white;
+}
+.reg-form input:focus::placeholder {
+	color: white;
+}
+.reg__email {
+	width: 100%;
+}
+.reg__password {
+	width: 100%;
+}
+.reg__bt {
+	width: 70%;
+}
+.reg__not-acc {
+	margin-top: 1rem;
+	text-align: left;
+	width: 100%;
+	padding-left: calc(1rem + 0.5vw);
+}
+.reg__not-acc a {
+	color: var(--main);
+	border-bottom: 1px solid var(--main);
+}
+.reg__data {
+	width: 100%;
+	padding-left: calc(1rem + 0.5vw);
+}
+.reg__data input {
+	width: fit-content;
+	margin-right: 1rem;
+}
 @media (max-width: 1600px) {
 	.container {
 		padding: 1% 4%;
